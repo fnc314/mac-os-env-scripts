@@ -1,0 +1,3 @@
+declare OPT_HOMEBREW="/opt/homebrew"
+declare HOMEBREW_PATHS="$OPT_HOMEBREW/bin:$OPT_HOMEBREW/sbin:$OPT_HOMEBREW/lib:$OPT_HOMEBREW/opt"
+export PATH="$HOMEBREW_PATHS:$PATH"
